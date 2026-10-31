@@ -1,0 +1,7 @@
+# The eval itself uses only the Python standard library,
+# including the offline Ollama backend.
+# pytest is only needed to run the tests.
+pytest>=7
+
+# Only for --backend claude (Python 3.10+):
+# anthropic
